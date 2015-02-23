@@ -1,18 +1,8 @@
-Welcome to your Appcelerator Titanium Mobile Project
+# Test case for the [pullToRefresh](https://github.com/FokkeZB/nl.fokkezb.pullToRefresh) widget.
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+The app use also the [drawer](https://github.com/FokkeZB/nl.fokkezb.drawer) widget.
 
+There is a **News** section which can be reach by the slide menu or the button on the home view.
 
-
-----------------------------------
-Stuff our legal folk make us say:
-
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
-
+In the **views/news.xml** a View wraps the widget. To reproduce the bug just remove it and let the widget at the lop level of this view.
+This view takes place in the center view of the drawer.
