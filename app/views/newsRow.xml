@@ -1,0 +1,12 @@
+<Alloy>
+	<TableViewRow id="newsItem">
+		<View id="newsHeader">
+			<Label id="newsItemL" />
+		</View>
+		<View id="newsInfo">
+			<ImageView id="imgAut" class="icon"></ImageView>
+			<Label id="newsAut" class="newsMeta" />
+			<Label id="newsDate" class="newsMeta" />
+		</View>
+	</TableViewRow>
+</Alloy>

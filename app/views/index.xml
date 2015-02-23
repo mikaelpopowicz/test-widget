@@ -1,0 +1,37 @@
+<Alloy>
+    <Widget id="drawer" src="nl.fokkezb.drawer">
+
+        <Window class="dark" height="100%" module="xp.ui" role="leftWindow">
+            <!-- Start Slide Menu Code Here -->
+	    	<Require type="widget" src="com.mcongrove.slideMenu" id="SlideMenu" />
+	    	<!-- End Slide Menu Code Here -->
+        </Window>
+
+		<NavigationWindow platform="ios" role="centerWindow">
+			<Window class="container">
+				<LeftNavButton>
+		            <ImageView id="imgSideMenu" class="icon"></ImageView>
+		        </LeftNavButton>
+		        <View id="header">
+		    		<Label id="mainTitle"/>
+		    	</View>
+		    	<View id="content">
+		    		<Label>I am center</Label>
+		    	</View>
+		    </Window>
+		</NavigationWindow>
+		
+		<View class="container" platform="android" role="centerWindow">
+			<View id="header">
+				<View width="15%">
+					<ImageView id="imgSideMenu" class="icon"></ImageView>
+				</View>
+				<View width="70%" layout="vertical">
+					<Label id="mainTitle"/>
+				</View>
+			</View>
+			<View id="content">
+			</View>
+		</View>
+    </Widget>
+</Alloy>

@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="container" layout="vertical">
+		<View id="homeH"/>
+		<View id="homeC">
+			<View layout="horizontal" height="50%">
+				<View width="50%">
+					<Button class="homeB homeBL homeBT" menuID="1">News</Button>
+				</View>
+			</View>
+		</View>
+	</View>
+</Alloy>

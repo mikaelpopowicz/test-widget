@@ -1,0 +1,36 @@
+"#drawer": {
+    openDrawerGestureMode: "OPEN_MODE_MARGIN",
+    closeDrawerGestureMode: "CLOSE_MODE_MARGIN",
+    leftDrawerWidth: 300,
+    parallaxAmount: 0.2
+}
+
+"#header": {
+	layout: "horizontal",
+	height: Alloy.CFG.Layouts.HeaderBar,
+	backgroundColor: Alloy.CFG.Colors.MainColor
+}
+
+"#content": {
+	layout: "vertical",
+	touchEnabled: false,
+	zIndex: 1
+}
+
+"#mainTitle": {
+	top: "8",
+	bottom: "10",
+	color: "white",
+	font: {
+		fontWeight: "bold",
+		fontSize: "35"
+	}
+}
+/*
+".icon" : {
+	width : 20,
+	height : 20,
+	left : 5,
+	right :5
+}
+*/

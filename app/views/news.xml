@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="win" class="container">
+		<Widget id="ptr" src="nl.fokkezb.pullToRefresh" onRelease="myRefresher" targetId="newsList">
+			<TableView id="newsList" backgroundcolor="#f1f2ef">
+			</TableView>
+		</Widget>
+	</View>
+</Alloy>

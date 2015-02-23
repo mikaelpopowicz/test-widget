@@ -1,0 +1,5 @@
+"#categorieList": {
+	height: Alloy.CFG.Layouts.HeaderBar,
+	scrollType: "horizontal",
+	layout: "horizontal"
+}

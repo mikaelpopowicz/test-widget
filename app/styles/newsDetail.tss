@@ -1,0 +1,25 @@
+".container": {
+	backgroundColor: 'white',
+    layout: "vertical"
+}
+
+"#header": {
+	layout: "horizontal",
+	height: "65",
+	backgroundColor: Alloy.CFG.Colors.MainColor
+}
+
+"#mainTitle": {
+	top: "8",
+	bottom: "10",
+	color: "white",
+	font: {
+		fontWeight: "bold",
+		fontSize: "35"
+	}
+}
+
+"img": {
+	left: 10,
+	right: 10
+}

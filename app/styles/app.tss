@@ -1,0 +1,19 @@
+".container" : {
+	opacity : 1.0,
+	width : Ti.UI.FILL,
+	height : Ti.UI.FILL,
+	layout : 'vertical',
+	navBarHidden : true,
+	theme: "Theme.NoActionBar",
+	backgroundColor: "white"
+}
+
+".dark": {
+	backgroundColor: Alloy.CFG.Colors.MainColor_Dark
+}
+
+"Button": {
+	font: {
+		fontFamily: "Monda-Regular"
+	}
+}

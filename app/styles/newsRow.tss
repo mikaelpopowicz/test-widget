@@ -1,0 +1,50 @@
+"#newsItem": {
+	layout: "vertical",
+	top: "0",
+	height: 80,
+	backgroundcolor: "#f1f2ef",
+	backgroundSelectedColor: "#c9cbf2",
+	separatorColor: "#000",
+	separatorStyle: Ti.UI.iPhone.TableViewSeparatorStyle.SINGLE_LINE
+}
+
+"#newsHeader": {
+	left: "10",
+	right: "10",
+	height: "60"
+}
+
+"#newsInfo": {
+	left: "10",
+	right: "10",
+	height: "20",
+	layout: "horizontal"
+}
+
+"#newsItemL": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	left: "0",
+	color: "black",
+	font: {
+		fontSize: "20",
+		fontFamily: "Monda-Regular"
+	}
+}
+
+".newsMeta": {
+	left: "3",
+	right: "3",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	color: "grey",
+	font: {
+		fontSize: "12",
+		fontFamily: "Monda-Regular"
+	}
+}
+
+"#imgAut": {
+	height: "20",
+	width: "20"
+}

@@ -1,0 +1,58 @@
+{
+  "global": {
+    "theme": "blue",
+    "colorCode": "#yourValue",
+    "LimitOfPosts": 5,
+    "Layouts": {
+    	"HeaderBar": "65",
+    	"TopContent": "130"
+    },
+    "Colors": {
+      "MainColor": "#5676a5",
+      "MainLite": "#8EA4C3",
+      "MainLiteSelected": "#C7D1E1",
+      "MainColor_Dark": "#373635",
+      "MainColor_DarkLite": "#5F5E5D",
+      "BackgroundColor": "#FFFFFF",
+      "ProfileTabColor": "#CCCCCC",
+      "validationFailColor": "#ECB19F",
+      "IconColor": "#5c5b5b",
+      "DisableColor": "#bab9b9",
+      "DiscountColor": "#fd000c",
+      "ItemIconColor_Dark": "#888888",
+      "ItemIconColor": "#DDDDDD",
+      "SideMenuIconColor": "#cb390e",
+      "TextColor": "#FFFFFF",
+      "TabColor": "#333333",
+      "ReviewBackgroundColor": "#F1F8F7",
+      "IconWhite": "#FFFFFF",
+      "IconGrey": "#b5afaf",
+      "IconRed": "#fc0303",
+      "CartColor": "#b71c1c",
+      "SliderIndexBGColor": "#DDDDDD",
+      "keyboardToolbarBG": "#999",
+      "facebookColor": "#405d9a",
+      "twitterColor": "#0075ab"
+    },
+    "Languages": {
+      "appName": "Fit Enjoy"
+    },
+    "Urls": {
+      "baseURL": "http://fitenjoy.cpm-web.fr/",
+      "getAllNews": "api/news/get_all"
+    }
+
+  },
+  "env:development": {},
+  "env:test": {},
+  "env:production": {},
+  "os:android": {},
+  "os:blackberry": {},
+  "os:ios": {},
+  "os:mobileweb": {},
+  "dependencies": {
+    "nl.fokkezb.drawer": "1.0.1",
+    "com.mcongrove.slideMenu": "1.0",
+    "nl.fokkezb.pullToRefresh": "2.1.0"
+  }
+}

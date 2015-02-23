@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container" layout="vertical">
+		<View id="header">
+			<View width="15%">
+				<ImageView id="iconLeft" class="icon"></ImageView>
+			</View>
+			<View width="70%" layout="vertical">
+				<Label id="mainTitle"/>
+			</View>
+		</View>
+	</Window>
+</Alloy>

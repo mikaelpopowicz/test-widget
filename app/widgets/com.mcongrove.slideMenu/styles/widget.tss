@@ -1,0 +1,5 @@
+"#Nodes": {
+	top: "0",
+	separatorColor: "#222",
+	separatorStyle: Ti.UI.iPhone.TableViewSeparatorStyle.SINGLE_LINE
+}
